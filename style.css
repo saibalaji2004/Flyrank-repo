@@ -1,0 +1,66 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #FAFAF7;
+  color: #171717;
+  font-family: Arial, sans-serif;
+}
+
+.portfolio {
+  min-height: 100vh;
+  padding: 32px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 68px;
+  height: 68px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  background: #0F766E;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.eyebrow {
+  color: #0F766E;
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+
+h1 {
+  margin: 12px 0;
+  font-size: clamp(32px, 7vw, 56px);
+}
+
+.intro {
+  max-width: 420px;
+  color: #555;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.status {
+  margin-top: 24px;
+  padding: 14px 20px;
+  border: 1px solid #DCE7E4;
+  border-radius: 30px;
+}
+
+footer {
+  margin-top: 40px;
+  color: #777;
+  font-size: 13px;
+}
